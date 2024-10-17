@@ -1,0 +1,50 @@
+#intro-header {
+    text-align: center;
+    padding-top: 120px;
+
+    & div {
+        position: relative;
+        width: fit-content;
+        margin: 0 auto 64px;
+
+        & img:first-child {
+            display: inline-block;
+            margin: auto;
+            width: 88px;
+            border-radius: 100%;
+            object-fit: cover;
+            aspect-ratio: 1/1;
+            outline: solid 2px var(--brand-color-red);
+            outline-offset: 4.36px;
+        }
+
+        & img:last-child {
+            position: absolute;
+            width: 32px;
+            bottom: 0;
+            right: -10px;
+        }
+    }
+
+    h1 {
+        font: var(--title-lg);
+        color: var(--base-gray-600);
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font: var(--subtitle);
+        color: var(--base-gray-500);
+        margin-bottom: 8px;
+
+        span {
+            color: var(--main-red);
+        }
+    }
+
+    p {
+        font: var(--text-sm);
+        color: var(--base-gray-400);
+    }
+
+}

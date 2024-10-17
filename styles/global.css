@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* PRODUCT COLOR */
+    --main-red: #E3646E;
+    --main-purple: #BB72E9;
+    --main-blue: #3996DB;
+    --main-green: #82BC4F;
+    --main-yellow: #EABD5F;
+    
+    /* BASE COLOR */
+    --base-gray-100: #0D0E11;
+    --base-gray-200: #16181D;
+    --base-gray-300: #292C34;
+    --base-gray-400: #878EA1;
+    --base-gray-500: #C0C4CE;
+    --base-gray-600: #E2E4E9;
+
+    /* FONT STYLE */
+    --font-asap: 'Asap', sans-serif;
+    --font-inconsolata: 'Inconsolata', serif;
+    --font-maven-pro: 'Maven pro', sans-serif;
+
+    --title-lg: 700 56px/120% var(--font-asap);
+    --title-md: 700 24px/120% var(--font-asap);
+    --title-sm: 700 16px/120% var(--font-asap);
+    --subtitle: 400 20px/120% var(--font-inconsolata);
+    --text-md: 400 16px/140% var(--font-maven-pro);
+    --text-sm: 400 14px/140% var(--font-maven-pro);
+
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-column {
+    grid-auto-flow: column;
+}
