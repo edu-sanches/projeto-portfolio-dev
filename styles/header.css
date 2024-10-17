@@ -1,6 +1,7 @@
 #intro-header {
     text-align: center;
     padding-top: 120px;
+    margin-bottom: 80px;
 
     & div {
         position: relative;
@@ -14,7 +15,7 @@
             border-radius: 100%;
             object-fit: cover;
             aspect-ratio: 1/1;
-            outline: solid 2px var(--brand-color-red);
+            outline: solid 2px var(--main-red);
             outline-offset: 4.36px;
         }
 
