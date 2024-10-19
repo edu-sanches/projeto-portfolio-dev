@@ -49,3 +49,21 @@
     }
 
 }
+
+header {
+
+    margin-bottom: 56px;
+    text-align: center;
+
+    span {
+        font: var(--subtitle);
+        color: var(--main-red);
+    }
+    
+    h3 {
+        margin-top: 8px;
+        font: var(--title-md);
+        color: var(--base-gray-600);    
+    }
+
+}
