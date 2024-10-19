@@ -1,6 +1,12 @@
+section {
+    background-color: var(--base-gray-200);
+}
+
 #intro {
-    background: var(--base-gray-200) url(../assets/images/Background_Intro.png) no-repeat center center / cover;
-    margin: auto;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     .info {
         max-width: 754px;
@@ -31,5 +37,64 @@
         text-align: center;
         color: var(--base-gray-400);
         font-size: 32px;
+    }
+}
+
+#projects {
+    padding: 72px 120px 144px;
+
+    header {
+
+        margin-bottom: 56px;
+        text-align: center;
+
+        span {
+            font: var(--subtitle);
+            color: var(--main-red);
+        }
+        
+        h3 {
+            margin-top: 8px;
+            font: var(--title-md);
+            color: var(--base-gray-600);
+            
+        }
+    }
+
+    div {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+
+        a {
+            background-color: var(--base-gray-300);
+            padding: 12px 12px 21px;
+            border-radius: 12px;
+            text-decoration: none;
+
+            &:hover {
+                scale: 1.03;
+                transition: 0.2s;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    figcaption {
+        span {
+            font: var(--title-sm);
+            color: var(--base-gray-600);
+        }
+
+        p {
+            margin-top: 8px;
+            font: var(--text-sm);
+            color: var(--base-gray-500);
+        }
     }
 }
