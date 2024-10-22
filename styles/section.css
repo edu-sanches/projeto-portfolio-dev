@@ -125,3 +125,46 @@ section {
 
     }
 }
+
+#contact {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 128px 120px;
+
+    div {
+        justify-self: center;
+
+        a {
+            display: grid;
+            grid-template-columns: auto 288px auto;
+            align-items: center;
+            gap: 12px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: var(--base-gray-300);
+            cursor: pointer;
+
+            &:hover {
+                scale: 1.05;
+                transition: 0.2s;
+            }
+
+            span {
+                font: var(--text-md);
+                color: var(--base-gray-500);
+            }
+
+            i:first-child {
+                font-size: 28px;
+                color: var(--base-gray-400);
+            }
+
+            i:last-child {
+                font-size: 20px;
+                color: var(--main-blue);
+            }
+        }
+    }
+}
