@@ -54,8 +54,8 @@ section {
             text-decoration: none;
 
             &:hover {
-                scale: 1.05;
-                transition: 0.2s;
+                outline: 1.5px solid var(--base-gray-400);
+                transition: 0.1s;
             }
         }
     }
@@ -147,8 +147,12 @@ section {
             cursor: pointer;
 
             &:hover {
-                scale: 1.05;
-                transition: 0.2s;
+                outline: 1.5px solid var(--main-blue);
+                transition: 0.1s;
+
+                i:first-child {
+                    color: var(--main-blue);
+                }
             }
 
             span {
